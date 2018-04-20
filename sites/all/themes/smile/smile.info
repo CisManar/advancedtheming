@@ -1,0 +1,87 @@
+name= Smile Theme
+description= This themed by Manar Sarah
+core= 7.x
+
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+
+
+regions[main-slider] = Main Slider
+regions[our-features] = our features
+regions[half-left] = half left
+regions[half-right] = half right
+regions[latest-col1] = latest col1
+regions[latest-col2] = latest col2
+regions[latest-col3] = latest col3
+regions[partners] = partners
+regions[contact-info] = contact info
+regions[social-icons] = social icons
+regions[copyright] = copyright
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[toggle_logo] = 1
+settings[toggle_name] = 1
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/animate.min.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-theme.css
+stylesheets[all][] = css/bootstrap-theme.min.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/prettyPhoto.css
+stylesheets[all][] = css/mystyle.css
+
+scripts[] = js/bootstrap.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/functions.js
+scripts[] = js/html5shiv.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/jquery.js
+scripts[] = js/jquery.prettyPhoto.js
+scripts[] = js/jquery-2.1.1.min.js
+scripts[] = js/wow.min.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
