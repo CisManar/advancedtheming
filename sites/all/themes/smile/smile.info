@@ -15,8 +15,7 @@ regions[page_bottom] = Page Bottom
 
 regions[main-slider] = Main Slider
 regions[our-features] = our features
-regions[half-left] = half left
-regions[half-right] = half right
+regions[about] = About
 regions[latest-col1] = latest col1
 regions[latest-col2] = latest col2
 regions[latest-col3] = latest col3

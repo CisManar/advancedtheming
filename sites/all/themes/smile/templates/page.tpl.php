@@ -75,7 +75,8 @@
 
 <?php print render($page['header']); ?>
 <div id="page-wrapper"><div id="page">
-<headr>
+
+	<headr>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="navigation">
 				<div class="container">					
@@ -88,24 +89,43 @@
 						</button>
 						<div class="navbar-brand">
 							<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-							<h1> <?php print $site_name; ?> </h1>
+								<h1> <?php print $site_name; ?> </h1>
 							</a>
 						</div>
 					</div>
-					
+						
 					<div class="navbar-collapse collapse">							
 						<div class="menu">
-						<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'nav-tabs'), 'role' => 'tablist' ))); ?>
+							<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'nav-tabs'), 'role' => 'tablist' ))); ?>
 						</div>
 					</div>						
 				</div>
 			</div>	
 		</nav>	
-</header>
-     <?php //print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'nav-tabs'), 'role' => 'tablist' ))); ?>
-	 <!-- hh -->
+	</header>
 
-  </div> </div>
-  <?php print render($page['our-features']); ?>
+	<section id="main-slider" class="no-margin">
+		<?php print render($page['main-slider']); ?>
+	</section>
+
+	<div class="feature">
+		<div class="container">
+			<div class="text-center">
+				<?php print render($page['our-features']); ?>
+			</div>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="container">
+			<?php print render($page['about']); ?>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+  
 
 
