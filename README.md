@@ -1,0 +1,16 @@
+# advancedtheming
+linux - windows
+
+…or create a new repository on the command line
+
+echo "# advancedtheming" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/CisManar/advancedtheming.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/CisManar/advancedtheming.git
+git push -u origin master
