@@ -133,17 +133,29 @@
 		</div>
 	</div>
 
+	<section id="partner">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Our Partners</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>    
+
+            <div class="partners">
+                <ul>
+					<?php print render($page['partners']); ?>
+                </ul>
+            </div>        
+        </div><!--/.container-->
+    </section><!--/#partner-->
+
+
 	<footer>
 		<div class="footer">
 			<div class="container">
 				<div class="social-icon">
 					<div class="col-md-4">
 						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+							<?php print render($page['social-icons']); ?>
 						</ul>	
 					</div>
 				</div>
